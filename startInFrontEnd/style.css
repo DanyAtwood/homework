@@ -1,0 +1,55 @@
+body {
+  margin: 10px 0 10px;
+}
+
+.first_page {
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+img {
+  display: block;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.nav a{
+  display: block;
+  margin: 1em auto;
+  text-decoration: none;
+  font-size: 40px;
+  color: black
+  
+}
+
+.nav a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.second_page {
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.text h2 {
+  padding: 50px;
+}
+
+.page_nav li {
+  margin: 50px auto;
+}
+
+.page_nav a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.page_nav a:hover {
+  color: red;
+  text-decoration: underline;
+}
