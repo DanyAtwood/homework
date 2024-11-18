@@ -1,3 +1,5 @@
+html { scroll-behavior: smooth; }
+
 body {
   margin: 10px 0 10px;
 }
@@ -33,10 +35,12 @@ img {
 
 .text {
   font-size: 20px;
+  text-align: left;
 }
 
 .text h2 {
-  padding: 50px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .page_nav li {
@@ -52,4 +56,24 @@ img {
 .page_nav a:hover {
   color: red;
   text-decoration: underline;
+}
+
+.footer {
+  font-size: 50px;
+}
+
+.back_page {
+  margin: 100px;
+}
+
+.footer a {
+  font-family:'Times New Roman', Times, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 25px;
+  border: none solid black;
+  text-decoration: none;
+  color: black;
+  padding: 25px;
+  background-color: bisque;
 }
