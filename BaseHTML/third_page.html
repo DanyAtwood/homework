@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Frontend Разработка</h1>
+    <nav>
+      <ul class="header__nav">
+        <li><a href="index.html#intro">Введение</a></li>
+        <li><a href="index.html#tools">Инструменты</a></li>
+        <li><a href="index.html#language">Языки</a></li>
+        <li><a href="second_page.html">Перейтина 2ю страницу</a></li>
+        <li><a href="third_page.html#comment">Оставить комментарий</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="" method="get">
+      <label>
+        Имя
+        <input type="text" placeholder="Введите имя" name="user_name">
+      </label>
+      <br>
+      <br>
+      <label>
+        Фамилия
+        <input type="text" placeholder="Введите фамилию" name="user_surname">
+      </label>
+      <br>
+      <br>
+      <label>
+        Почта
+        <input type="email" placeholder="Введите почту" name="user_email">
+      </label>
+      <br>
+      <br>
+      <label>
+        Дата рождения
+        <input type="date" name="user_birthday">
+      </label>
+      <br>
+      <br>
+      <label>
+        Количество лет в IT-сфере
+        <input type="number" placeholder="Введите число" name="user_workTime" list="years">
+      </label>
+      <datalist id="years">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </datalist>
+      <br>
+      <br>
+      <label>
+        <textarea cols="50" rows="10" name="user_comment" id="comment"></textarea>
+      </label>
+      <br>
+      <label>
+        <input type="submit" value="Отправить" name="user_submit">
+      </label>
+    </form>
+  </main>
+
+  <footer>
+    <nav class="footer">
+      <p>Связаться с нами</p>
+      <address>Телефон для связи: <a href="tel: +78005553535">+7(800)555-35-35</a></address>
+      <ul>
+        <li><a href="index.html">Первая страница</a></li>
+        <li><a href="second_page.html">Вторая страница</a></li>
+        <li><a href="#">Третья страница</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+
+</html>
